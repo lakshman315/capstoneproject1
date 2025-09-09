@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="102.281" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-09-08T04:31:28.574763600Z">
+<testcase classname="Add to Cart" name="Add product to cart" time="7.24">
+<system-out><![CDATA[
+Given user on nopCommerce site..............................................passed
+When user searched for Adobe Photoshop......................................passed
+And user added product to cart..............................................passed
+Then product should be in cart..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="nopcommerce login" name="user get successfull login" time="9.903">
+<system-out><![CDATA[
+Given User should open nopcommerce home page................................passed
+When User  click on login...................................................passed
+And the user enters their email and password................................passed
+And user should click on submit button......................................passed
+Then User get logged in.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Newsletter Subscription" name="Subscribe to newsletter" time="3.715">
+<system-out><![CDATA[
+Given userr open nopCommerce site...........................................passed
+When userr enter my email for newsletter....................................passed
+And userr click subscribe...................................................passed
+Then userr should see newsletter subscription confirmation..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Catalog" name="View a product from catalog" time="8.597">
+<system-out><![CDATA[
+Given user open nopCommerce website.........................................passed
+When user navigates to category.............................................passed
+And user clicks on..........................................................passed
+Then user should see the product details page...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Registration" name="Successful registration" time="16.622">
+<system-out><![CDATA[
+Given User is on nopCommerce homepage.......................................passed
+When User clicks on register link...........................................passed
+And User enters required registration details...............................passed
+And User submits the registration form......................................passed
+Then User should see registration confirmation..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Remove from Cart" name="Remove product from cart" time="8.708">
+<system-out><![CDATA[
+Given user goes to nopCommerce site.........................................passed
+When user searches for Adobe Photoshop......................................passed
+And user added the product to cart..........................................passed
+And user goes to cart.......................................................passed
+And user remove the product.................................................passed
+Then cart should be empty...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Product" name="Search for a product" time="6.989">
+<system-out><![CDATA[
+Given user open nopCommerce site............................................passed
+When user search for MacBook................................................passed
+Then user should see MacBook in results.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checkout as Guest" name="Guest checkout with product in cart" time="31.488">
+<system-out><![CDATA[
+Given user opened nopCommerce site..........................................passed
+When user do search for product.............................................passed
+And user add product to cart................................................passed
+And user proceed to checkout as guest.......................................passed
+And user enter billing details..............................................passed
+And user select shipping and payment method.................................passed
+Then user should see order confirmation.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Wishlist" name="Add product to wishlist" time="8.79">
+<system-out><![CDATA[
+Given user opens nopCommerce site...........................................passed
+When user search for Adobe Photoshop in home page...........................passed
+And user added product to wishlist..........................................passed
+Then product should be in wishlist..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
